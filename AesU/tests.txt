@@ -1,0 +1,391 @@
+c:\OpenSSL-Win32\bin>java AesU -e -k 11223344556677889900112233445566 -m ECB -in poem.txt -out ecb128e.txt
+Command entered:
+openssl aes-128-ECB -e -K 11223344556677889900112233445566 -v -nosalt -in poem.txt -out ecb128e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+Invalid command 'aes-128-ECB'; type "help" for a list.
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 11223344556677889900112233445566 -m ecb -in poem.txt -out ecb128e.txt
+Command entered:
+openssl aes-128-ecb -e -K 11223344556677889900112233445566 -v -nosalt -in poem.txt -out ecb128e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 112233445566778899001122334455667788990011223344 -m ecb -in poem.txt -out ecb192e.txt
+Command entered:
+openssl aes-192-ecb -e -K 112233445566778899001122334455667788990011223344 -v -nosalt -in poem.txt -out ecb192e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 1122334455667788990011223344556677889900112233445566778899001122 -m ecb -in poem.txt -out ecb192e.txt
+Command entered:
+openssl aes-256-ecb -e -K 1122334455667788990011223344556677889900112233445566778899001122 -v -nosalt -in poem.txt -out ecb192e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 1122334455667788990011223344556677889900112233445566778899001122 -m ecb -in poem.txt -out ecb256e.txt
+Command entered:
+openssl aes-256-ecb -e -K 1122334455667788990011223344556677889900112233445566778899001122 -v -nosalt -in poem.txt -out ecb256e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 112233445566778899001122334455667788990011223344 -m ecb -in poem.txt -out ecb192e.txt
+Command entered:
+openssl aes-192-ecb -e -K 112233445566778899001122334455667788990011223344 -v -nosalt -in poem.txt -out ecb192e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 1122334455667788990011223344556677889900112233445566778899001122 -m ecb -in ecb256e.txt -out ecb256d.txt
+Command entered:
+openssl aes-256-ecb -d -K 1122334455667788990011223344556677889900112233445566778899001122 -v -nosalt -in ecb256e.txt -out ecb256d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     720
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 112233445566778899001122334455667788990011223344 -m ecb -in ecb192e.txt -out ecb192d.txt
+Command entered:
+openssl aes-192-ecb -d -K 112233445566778899001122334455667788990011223344 -v -nosalt -in ecb192e.txt -out ecb192d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     720
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 11223344556677889900112233445566 -m ecb -in ecb128e.txt -out ecb128d.txt
+Command entered:
+openssl aes-128-ecb -d -K 11223344556677889900112233445566 -v -nosalt -in ecb128e.txt -out ecb128d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     720
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 11223344556677889900112233445566 -i 00000000000000000000000000000000 -m cbc -in poem.txt -out cbc128e.txt
+Command entered:
+openssl aes-128-cbc -e -K 11223344556677889900112233445566 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out cbc128e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 11223344556677889900112233445566778899001122 -i 00000000000000000000000000000000 -m cbc -in poem.txt -out cbc192e.txt
+Command entered:
+openssl aes-176-cbc -e -K 11223344556677889900112233445566778899001122 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out cbc192e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+Invalid command 'aes-176-cbc'; type "help" for a list.
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 112233445566778899001122334455667788990011223344 -i 00000000000000000000000000000000 -m cbc -in poem.txt -out cbc192e.txt
+Command entered:
+openssl aes-192-cbc -e -K 112233445566778899001122334455667788990011223344 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out cbc192e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 1122334455667788990011223344556677889900112233445566778899001122 -i 00000000000000000000000000000000 -m cbc -in poem.txt -out cbc256e.txt
+Command entered:
+openssl aes-256-cbc -e -K 1122334455667788990011223344556677889900112233445566778899001122 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out cbc256e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 1122334455667788990011223344556677889900112233445566778899001122 -i 00000000000000000000000000000000 -m cbc -in cbc256e.txt -out cbc256d.txt
+Command entered:
+openssl aes-256-cbc -d -K 1122334455667788990011223344556677889900112233445566778899001122 -iv 00000000000000000000000000000000 -v -nosalt -in cbc256e.txt -out cbc256d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     720
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 112233445566778899001122334455667788990011223344 -i 00000000000000000000000000000000 -m cbc -in cbc192e.txt -out cbc192d.txt
+Command entered:
+openssl aes-192-cbc -d -K 112233445566778899001122334455667788990011223344 -iv 00000000000000000000000000000000 -v -nosalt -in cbc192e.txt -out cbc192d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     720
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 11223344556677889900112233445566 -i 00000000000000000000000000000000 -m cbc -in cbc128e.txt -out cbc128d.txt
+Command entered:
+openssl aes-128-cbc -d -K 11223344556677889900112233445566 -iv 00000000000000000000000000000000 -v -nosalt -in cbc128e.txt -out cbc128d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     720
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 11223344556677889900112233445566 -i 00000000000000000000000000000000 -m cbc -in poem.txt -out cfb128e.txt
+Command entered:
+openssl aes-128-cbc -e -K 11223344556677889900112233445566 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out cfb128e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 112233445566778899001122334455667788990011223344 -i 00000000000000000000000000000000 -m cbc -in poem.txt -out cfb192e.txt
+Command entered:
+openssl aes-192-cbc -e -K 112233445566778899001122334455667788990011223344 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out cfb192e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 112233445566778899001122334455667788990011223344 -i 00000000000000000000000000000000 -m cfb -in poem.txt -out cfb192e.txt
+Command entered:
+openssl aes-192-cfb -e -K 112233445566778899001122334455667788990011223344 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out cfb192e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 11223344556677889900112233445566 -i 00000000000000000000000000000000 -m cfb -in poem.txt -out cfb128e.txt
+Command entered:
+openssl aes-128-cfb -e -K 11223344556677889900112233445566 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out cfb128e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 1122334455667788990011223344556677889900112233445566778899001122 -i 00000000000000000000000000000000 -m cfb -in poem.txt -out cfb256e.txt
+Command entered:
+openssl aes-256-cfb -e -K 1122334455667788990011223344556677889900112233445566778899001122 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out cfb256e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 1122334455667788990011223344556677889900112233445566778899001122 -i 00000000000000000000000000000000 -m cfb -in cfb256e.txt -out cfb256d.txt
+Command entered:
+openssl aes-256-cfb -d -K 1122334455667788990011223344556677889900112233445566778899001122 -iv 00000000000000000000000000000000 -v -nosalt -in cfb256e.txt -out cfb256d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 112233445566778899001122334455667788990011223344 -i 00000000000000000000000000000000 -m cfb -in cfb192e.txt -out cfb192d.txt
+Command entered:
+openssl aes-192-cfb -d -K 112233445566778899001122334455667788990011223344 -iv 00000000000000000000000000000000 -v -nosalt -in cfb192e.txt -out cfb192d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 11223344556677889900112233445566 -i 00000000000000000000000000000000 -m cfb -in cfb128e.txt -out cfb128d.txt
+Command entered:
+openssl aes-128-cfb -d -K 11223344556677889900112233445566 -iv 00000000000000000000000000000000 -v -nosalt -in cfb128e.txt -out cfb128d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 11223344556677889900112233445566 -i 00000000000000000000000000000000 -m ofb -in poem.txt -out ofb128e.txt
+Command entered:
+openssl aes-128-ofb -e -K 11223344556677889900112233445566 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out ofb128e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 112233445566778899001122334455667788990011223344 -i 00000000000000000000000000000000 -m ofb -in poem.txt -out ofb192e.txt
+Command entered:
+openssl aes-192-ofb -e -K 112233445566778899001122334455667788990011223344 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out ofb192e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 1122334455667788990011223344556677889900112233445566778899001122 -i 00000000000000000000000000000000 -m ofb -in poem.txt -out ofb256e.txt
+Command entered:
+openssl aes-256-ofb -e -K 1122334455667788990011223344556677889900112233445566778899001122 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out ofb256e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 1122334455667788990011223344556677889900112233445566778899001122 -i 00000000000000000000000000000000 -m ofb -in ofb256e.txt -out ofb256d.txt
+Command entered:
+openssl aes-256-ofb -d -K 1122334455667788990011223344556677889900112233445566778899001122 -iv 00000000000000000000000000000000 -v -nosalt -in ofb256e.txt -out ofb256d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 112233445566778899001122334455667788990011223344 -i 00000000000000000000000000000000 -m ofb -in ofb192e.txt -out ofb192d.txt
+Command entered:
+openssl aes-192-ofb -d -K 112233445566778899001122334455667788990011223344 -iv 00000000000000000000000000000000 -v -nosalt -in ofb192e.txt -out ofb192d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 11223344556677889900112233445566 -i 00000000000000000000000000000000 -m ofb -in ofb128e.txt -out ofb128d.txt
+Command entered:
+openssl aes-128-ofb -d -K 11223344556677889900112233445566 -iv 00000000000000000000000000000000 -v -nosalt -in ofb128e.txt -out ofb128d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 11223344556677889900112233445566 -i 00000000000000000000000000000000 -m ctr -in poem.txt -out ctr128e.txt
+Command entered:
+openssl aes-128-ctr -e -K 11223344556677889900112233445566 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out ctr128e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 112233445566778899001122334455667788990011223344 -i 00000000000000000000000000000000 -m ctr -in poem.txt -out ctr192e.txt
+Command entered:
+openssl aes-192-ctr -e -K 112233445566778899001122334455667788990011223344 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out ctr192e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -e -k 1122334455667788990011223344556677889900112233445566778899001122 -i 00000000000000000000000000000000 -m ctr -in poem.txt -out ctr256e.txt
+Command entered:
+openssl aes-256-ctr -e -K 1122334455667788990011223344556677889900112233445566778899001122 -iv 00000000000000000000000000000000 -v -nosalt -in poem.txt -out ctr256e.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 1122334455667788990011223344556677889900112233445566778899001122 -i 00000000000000000000000000000000 -m ctr -in ctr256e.txt -out ctr256d.txt
+Command entered:
+openssl aes-256-ctr -d -K 1122334455667788990011223344556677889900112233445566778899001122 -iv 00000000000000000000000000000000 -v -nosalt -in ctr256e.txt -out ctr256d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 112233445566778899001122334455667788990011223344 -i 00000000000000000000000000000000 -m ctr -in ctr192e.txt -out ctr192d.txt
+Command entered:
+openssl aes-192-ctr -d -K 112233445566778899001122334455667788990011223344 -iv 00000000000000000000000000000000 -v -nosalt -in ctr192e.txt -out ctr192d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
+
+c:\OpenSSL-Win32\bin>java AesU -d -k 11223344556677889900112233445566 -i 00000000000000000000000000000000 -m ctr -in ctr128e.txt -out ctr128d.txt
+Command entered:
+openssl aes-128-ctr -d -K 11223344556677889900112233445566 -iv 00000000000000000000000000000000 -v -nosalt -in ctr128e.txt -out ctr128d.txt
+Here is the standard output of the command:
+
+Here is the standard error of the command (if any):
+
+bufsize=8192
+bytes read   :     710
+bytes written:     710
