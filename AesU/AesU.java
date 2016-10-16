@@ -124,13 +124,13 @@ public class AesU {
 			
 			//if there is an initial vector
 			if(inputs[3].equals("-i")){
-				cipher = "aes-" + Integer.toString(keylen * 4) + "-" + inputs [6];
+				cipher = "aes-" + Integer.toString(keylen * 4) + "-" + inputs[6].toLowerCase();
 				openssl = String.format("openssl %s %s -K %s -iv %s -v -nosalt -in %s -out %s", cipher, inputs[0], inputs[2], inputs[4], inputs[8], inputs[10]);
 			}
 			
 			//if there is no initial vector
 			else{
-				cipher = "aes-" + Integer.toString(keylen * 4) + "-" + inputs [4];
+				cipher = "aes-" + Integer.toString(keylen * 4) + "-" + inputs[4].toLowerCase();
 				openssl = String.format("openssl %s %s -K %s -v -nosalt -in %s -out %s", cipher, inputs[0], inputs[2], inputs[6], inputs[8]);}
 				
 				System.out.println("Command entered: ");
